@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.loginbutton {
+  background-color: rgb(255, 96, 39);
+  height: 35px;
+  width: 70px;
+  color: white;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.image {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.shoppingbutton {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.shoppingbutton:hover {
+  background-color: rgb(255, 96, 39);
+  color: white;
+}
+
+.maincontent {
+  color: white;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.slogan {
+  color: rgba(255, 223, 186, 0.8);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: end;
+  margin-top: 1rem; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .maincontent {
+    font-size: 0.9rem;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .shoppingbutton {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+body {
+  background-image: url("resourcses/background3.jpg");
+  width: 100%;
+  color: white;
+}
+
+/* product page*/
+.overallproductbox{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.productboximage{
+  height: 300px;
+  width: 330px;
+  border: 1px solid white;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.productbox{
+  height: 440px;
+  width: 340px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  border: 2px solid white;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.shoppingbutton1{
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.shoppingbutton1:hover{
+  background-color: rgb(255, 96, 39);
+  color: white;
+}
+div h3,h6{
+  color: rgb(2, 0, 0);
+  font-weight: bolder;
+}
+del{
+  color: red;
+}
+ins{
+  color: rgba(6, 247, 6, 0.808);
+}
