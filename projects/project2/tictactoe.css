@@ -1,0 +1,60 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.container_1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+}
+
+.container_2
+{
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_2 div{
+  border: 1px solid white;
+  font-size: 80px;
+}
+
+.container_3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.resetbutton1
+{
+  width: 150px;
+  height: 50px;
+}
+
+.container_21
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  background-color:#FF5733 ;
+  height: 50vh;
+  width: 50vh;
+
+}
+
+.container_4
+{
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
